@@ -23,34 +23,34 @@ namespace admiralps
             // 
             // txtUsername
             // 
-            this.txtUsername.Location = new System.Drawing.Point(30, 30);
+            this.txtUsername.Location = new System.Drawing.Point(150, 50);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(200, 20);
+            this.txtUsername.Size = new System.Drawing.Size(200, 22);
             this.txtUsername.TabIndex = 0;
             this.txtUsername.PlaceholderText = "Username";
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(30, 60);
+            this.txtPassword.Location = new System.Drawing.Point(150, 100);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(200, 20);
+            this.txtPassword.Size = new System.Drawing.Size(200, 22);
             this.txtPassword.TabIndex = 1;
-            this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.PlaceholderText = "Password";
+            this.txtPassword.PasswordChar = '*';
             // 
             // txtDomain
             // 
-            this.txtDomain.Location = new System.Drawing.Point(30, 90);
+            this.txtDomain.Location = new System.Drawing.Point(150, 150);
             this.txtDomain.Name = "txtDomain";
-            this.txtDomain.Size = new System.Drawing.Size(200, 20);
+            this.txtDomain.Size = new System.Drawing.Size(200, 22);
             this.txtDomain.TabIndex = 2;
             this.txtDomain.PlaceholderText = "Domain";
             // 
             // btnRegister
             // 
-            this.btnRegister.Location = new System.Drawing.Point(30, 120);
+            this.btnRegister.Location = new System.Drawing.Point(150, 200);
             this.btnRegister.Name = "btnRegister";
-            this.btnRegister.Size = new System.Drawing.Size(200, 30);
+            this.btnRegister.Size = new System.Drawing.Size(100, 30);
             this.btnRegister.TabIndex = 3;
             this.btnRegister.Text = "Register";
             this.btnRegister.UseVisualStyleBackColor = true;
@@ -58,12 +58,15 @@ namespace admiralps
             // 
             // RegisterForm
             // 
-            this.ClientSize = new System.Drawing.Size(260, 180);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(400, 300);
             this.Controls.Add(this.txtUsername);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.txtDomain);
             this.Controls.Add(this.btnRegister);
-            this.Text = "Register SIP Account";
+            this.Name = "RegisterForm";
+            this.Text = "Register";
             this.ResumeLayout(false);
             this.PerformLayout();
         }
