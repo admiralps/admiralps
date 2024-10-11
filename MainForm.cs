@@ -6,7 +6,7 @@ namespace admiralps
 {
     public partial class MainForm : Form
     {
-        private PortSIPLib portsipLib;
+        
 
         public MainForm()
         {
@@ -16,17 +16,13 @@ namespace admiralps
 
         private void InitializePortSIP()
         {
-            // Create an instance of the PortSIP library
-            portsipLib = new PortSIPLib();
-            
-            // Initialize or configure the PortSIP SDK here
-            // Example: portsipLib.Initialize();
+
         }
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
             // Show the registration form
-            RegisterForm registerForm = new RegisterForm(portsipLib);
+            RegisterForm registerForm = new RegisterForm();
             registerForm.ShowDialog();
         }
 

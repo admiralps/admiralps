@@ -17,8 +17,11 @@ namespace PortSIP
         private bool mHasEarlyMedia = false;
         private int mDialogMessageId = 0;
         private int mOutOfDialogMessageId = 0;
-
-        public bool hasEarlyMeida()
+        private bool mExistsAudio = false;
+        private bool mExistsVideo = false;
+        private bool mExistsScreen = false;
+        private bool mInitiateScreen = false;
+        public bool hasEarlyMedia()
         {
             return mHasEarlyMedia;
         }
@@ -64,7 +67,47 @@ namespace PortSIP
         }
 
 
+        public bool getExistsVideo()
+        {
+            return mExistsVideo;
+        }
 
+
+        public void setExistsVide1o(bool state)
+        {
+            mExistsVideo = state;
+        }
+
+        public bool getExistsScreen()
+        {
+            return mExistsScreen;
+        }
+
+
+        public void setExistsScreen(bool state)
+        {
+            mExistsScreen = state;
+        }
+
+        public bool getExistsAudio()
+        {
+            return mExistsAudio;
+        }
+
+        public void setExistsAudio(bool state)
+        {
+            mExistsAudio = state;
+        }
+
+        public bool getInitiateScreen()
+        {
+            return mInitiateScreen;
+        }
+
+        public void setInitiateScreen(bool state)
+        {
+            mInitiateScreen = state;
+        }
         public void reset()
         {
             mSessionId = 0;
@@ -75,6 +118,10 @@ namespace PortSIP
             mIsReferCall = false;
             mDialogMessageId = 0;
             mOutOfDialogMessageId = 0;
+            mExistsAudio = false;
+            mExistsVideo = false;
+            mExistsScreen = false;
+            mInitiateScreen = false;
         }
 
 

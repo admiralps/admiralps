@@ -46,6 +46,14 @@ namespace admiralps
             this.txtDomain.TabIndex = 2;
             this.txtDomain.PlaceholderText = "Domain";
             // 
+            // txtDomain
+            // 
+            this.txtProxy.Location = new System.Drawing.Point(150, 150);
+            this.txtProxy.Name = "txtProxy";
+            this.txtProxy.Size = new System.Drawing.Size(200, 22);
+            this.txtProxy.TabIndex = 2;
+            this.txtProxy.PlaceholderText = "Proxy";
+            // 
             // btnRegister
             // 
             this.btnRegister.Location = new System.Drawing.Point(150, 200);
@@ -74,6 +82,7 @@ namespace admiralps
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.TextBox txtDomain;
+        private System.Windows.Forms.TextBox txtProxy;
         private System.Windows.Forms.Button btnRegister;
     }
 }
