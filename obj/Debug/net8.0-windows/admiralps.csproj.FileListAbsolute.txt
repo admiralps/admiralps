@@ -1,0 +1,14 @@
+D:\ahmad\admiralps\bin\Debug\net8.0-windows\admiralps.exe
+D:\ahmad\admiralps\bin\Debug\net8.0-windows\admiralps.deps.json
+D:\ahmad\admiralps\bin\Debug\net8.0-windows\admiralps.runtimeconfig.json
+D:\ahmad\admiralps\bin\Debug\net8.0-windows\admiralps.dll
+D:\ahmad\admiralps\bin\Debug\net8.0-windows\admiralps.pdb
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.GeneratedMSBuildEditorConfig.editorconfig
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.AssemblyInfoInputs.cache
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.AssemblyInfo.cs
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.csproj.CoreCompileInputs.cache
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.dll
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\refint\admiralps.dll
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.pdb
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\admiralps.genruntimeconfig.cache
+D:\ahmad\admiralps\obj\Debug\net8.0-windows\ref\admiralps.dll
